@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className='app-container'>
       <div className="container-title">
-        <h1><a href="https://pokeapi.co/">POKE API</a></h1>
+        <h1><a href="https://pokeapi.co/">POKE <br /> API</a></h1>
       </div>
       <PokeCard data={pokemon} />
       <div className='app-footer'>Made with ❤ by <a href="https://github.com/CarlosVilla25">Charlie Villa</a></div>

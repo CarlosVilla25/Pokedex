@@ -1,9 +1,3 @@
-.app-container {
-  background: -webkit-linear-gradient(to bottom, #b20a2c, #fffbd5);
-  background: #fffbd5;
-  background: linear-gradient(to bottom, #b20a2c, #fffbd5);
-}
-
 .container-title {
   display: flex;
   justify-content: center;
@@ -12,8 +6,8 @@
 .app-container h1 {
   color: #ddd;
   display: inline-block;
-  font-size: 64px;
-  letter-spacing: 70px;
+  font-size: 3rem;
+  letter-spacing: 3rem;
 }
 
 .app-container h1 a {
