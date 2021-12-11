@@ -1,0 +1,153 @@
+.pokecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-container {
+  background: rgb(213, 161, 0);
+  background: linear-gradient(90deg,rgba(213, 161, 0, 1) 0%,rgba(220, 145, 0, 1) 18%,rgba(235, 111, 0, 1) 53%,rgba(249, 159, 0, 1) 85%,rgba(255, 204, 0, 1) 100%);
+  border-radius: 20px;
+  border: 6px solid #0a285f;
+  box-shadow: 10px 10px 15px 5px rgb(0 0 0 / 50%);
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.card-name {
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid #0a285f;
+  color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.card-name strong {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.card-id-circle {
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #0a285f;
+  color: #ddd;
+  display: flex;
+  font-weight: bolder;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
+
+.card-img {
+  background: rgb(10, 40, 95);
+  background: linear-gradient(90deg,rgba(10, 40, 95, 0.8) 0%,rgba(0, 117, 190, 0.8) 100%);
+  border-radius: 20px;
+  border: 3px solid #ddd;
+  text-align: center;
+}
+
+.card-img img {
+  width: 200px;
+}
+
+.card-stats {
+  -webkit-text-stroke: 0.4px black;
+  background: #2b5876;
+  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
+  background: linear-gradient(to top, #4e4376, #2b5876);
+  border-radius: 20px;
+  border: 3px solid #ddd;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  max-height: 90px;
+  min-height: 90px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.card-stats strong {
+  text-transform: uppercase;
+}
+
+.type-fire {
+  background-color: red;
+}
+
+.type-water {
+  background-color: blue;
+}
+
+.type-grass {
+  background-color: green;
+}
+
+.type-bug {
+  background-color: chartreuse;
+}
+
+.type-normal {
+  background-color: bisque;
+}
+
+.type-fighting {
+  background-color: burlywood;
+}
+
+.type-flying {
+  background-color: cyan;
+}
+
+.type-poison {
+  background-color: rebeccapurple;
+}
+
+.type-ground {
+  background-color: brown;
+}
+
+.type-rock {
+  background-color: grey;
+}
+
+.type-ghost {
+  background-color: gainsboro;
+}
+
+.type-steel {
+  background-color: steelblue;
+}
+
+.type-electric {
+  background-color: yellow;
+}
+
+.type-psychic {
+  background-color: yellowgreen;
+}
+
+.type-ice {
+  background-color: aqua;
+}
+
+.type-dragon {
+  background-color: tomato;
+}
+
+.type-dark {
+  background-color: darkmagenta;
+}
+
+.type-unknown {
+  background-color: darkred;
+}
+
+.type-shadow {
+  background-color: grey;
+}
